@@ -1,48 +1,47 @@
-🐍 Classic Snake Game
+<div align="center">
 
-A retro-style Snake game built using Python's turtle module.  
+<h1>🐍 Classic Snake Game</h1>
+
+<p style="font-size:18px;">
+A retro-style Snake game built using Python's turtle module.<br>
 Simple, addictive, and perfect for learning basic game logic and graphics handling in Python.
+</p>
 
-🎮 Features
+</div>
 
-• Smooth snake movement and collision detection  
-• Score tracking and game-over screen  
-• Responsive keyboard controls  
-• Clean and minimalistic design using turtle
+---
 
-🚀 Getting Started
+<h2>🎮 Features</h2>
 
-Requirements  
-• Python 3.x  
-• turtle module (comes pre-installed with Python)
+<ul>
+  <li>Smooth snake movement and collision detection</li>
+  <li>Score tracking and game-over screen</li>
+  <li>Responsive keyboard controls</li>
+  <li>Clean and minimalistic design using turtle</li>
+</ul>
 
-Run the Game  
-Open your terminal and run:
+---
 
+<h2>🚀 Getting Started</h2>
+
+<h3>Requirements</h3>
+
+<ul>
+  <li>Python 3.x</li>
+  <li>turtle module (comes pre-installed with Python)</li>
+</ul>
+
+<h3>Run the Game</h3>
+
+<h2>🧠 How It Works</h2>
+
+<ul> <li>The snake moves continuously in the current direction</li> <li>Arrow keys change direction</li> <li>Eating food increases the snake’s length and score</li> <li>Collision with walls or self ends the game</li> </ul>
+
+<h2>🛠️ Code Highlights</h2>
+
+<ul> <li><code>turtle</code> for graphics and movement</li> <li><code>ontimer()</code> for game loop control</li> <li><code>listen()</code> and <code>onkey()</code> for keyboard input</li> </ul>
+
+<p style="font-size:16px;"> Created by <strong>Karmrajsinh Vaghela</strong><br> GitHub: <a href="https://github.com/k-vaghela-111">https://github.com/k-vaghela-111</a><br> Inspired by the timeless arcade classic. </p>
+
+```bash
 python snake_game.py
-
-🧠 How It Works
-
-• The snake moves continuously in the current direction  
-• Arrow keys change direction  
-• Eating food increases the snake’s length and score  
-• Collision with walls or self ends the game
-
-🛠️ Code Highlights
-
-• turtle for graphics and movement  
-• ontimer() for game loop control  
-• listen() and onkey() for keyboard input
-
-📁 File Structure
-
-Classic-Snake-Game/
-│
-├── snake_game.py
-└── README.md
-
-✨ Credits
-
-Created by Karmrajsinh Vaghela  
-GitHub: https://github.com/k-vaghela-111  
-Inspired by the timeless arcade classic.
